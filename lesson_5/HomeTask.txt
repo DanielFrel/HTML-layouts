@@ -1,0 +1,3 @@
+Implements html page using css by template link:
+
+https://xd.adobe.com/view/1d224e89-7088-4e10-651d-a0d9b9f95c8a-6b13/

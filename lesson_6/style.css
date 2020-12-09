@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Courgette', cursive;
+font-family: 'Lato', sans-serif;
+}
+.q2{
+    list-style: none;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper-100h{
+    height: 100%;
+}
+
+#header{
+    background: url(./assets/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(216, 145, 14);
+    height: 100vh;
+    color: #fff;
+    min-height: 600px;
+}
+
+#header .nav{
+    overflow: hidden;
+    padding: 10px 0;
+}
+#header .nav img{
+    margin-top: -40px;
+    float:left;
+}
+
+#header .nav ul{
+    float:right;
+    margin-top: 6px;
+}
+
+#header .nav ul img{
+    margin-top: 40px;
+}
+
+#header .nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#header h3 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 100px;
+}
+#header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#header p{
+    text-align: center;
+    width: 600px;
+    margin: 15px auto;
+    font-size: 0.9rem;
+}
+
+#header .wrapper{
+    position: relative;
+}
+
+.buttons{
+    text-align: center;
+    padding: 15px;
+}
+
+.btn{
+    border: 1px solid #fff;
+    text-decoration: none;
+    width: 150px;
+    display: inline-block;
+    color: #f0b064;
+    text-align: center;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.btn-flat{
+    color: #fff;
+}
+
+.icon_down{
+    width: 100wh;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-msg{
+    width: 100%;
+    height: 227px;
+    margin-top: -227px;
+}
+.card{
+    display: inline-block;
+    margin: 0 25px;
+    width: calc(100% / 3 - 55px);
+    text-align: center;
+}
+
+.card img{
+    text-align: center;
+    
+}
+
+.card p{
+    margin-bottom: 15px;
+}
+
+#card-section{
+    padding: 80px 0 30px;
+    text-align: center;
+}
+
+.img1{
+    position: relative;
+}
+
+.img2{
+    position: absolute;
+    left: 110px;
+    top: 23px;
+}
+
+#header2{
+    height: 400px;
+    background: url(./assets/componentbg2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(216, 145, 14);
+    color: #fff;
+    position: relative;
+}
+
+#header2 .nav{   
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.phoneContainer {
+    height: 120px;
+}
+
+.img3{
+    position: static;
+    height: 300px;
+    float: left;
+    margin-top: 107px;
+    margin-left: 100px;
+}
+.img4{
+    position: static;
+    height: 300px;
+    float: left;
+    margin-top: -240px;
+    margin-left: 126px;
+}
+
+#header2 .nav ul img{
+    margin-top: 40px;
+    
+}
+
+#header2 .nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#header2 h3 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 200px;
+}
+
+#header2 h2 {
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 300;
+    float: right;
+    color: black;
+    top: -340px;
+    left: 120px;
+}
+
+#header2 p{
+    position: relative;
+    top: -330px;
+    left: -18px;
+    text-align: left;
+    width: 600px;
+    margin: 15px auto;
+    font-size: 0.9rem;
+    float:right;
+    color: black;
+}
+
+#header2 .wrapper{
+    position: relative;
+}
+
+
+.card1{
+    display: inline-block;
+    margin: 0 25px;
+    width: calc(100% / 4);
+    text-align: center;
+}
+
+.card1 img{
+    text-align: center;
+    
+}
+
+.card1 p{
+    margin-bottom: 15px;
+}
+.card2{
+    display: inline-block;
+    margin: 0 25px;
+    width: calc(100% *3/4 + 200px);
+    text-align: center;
+}
+
+.card2 img{
+    text-align: center;
+    
+}
+
+.card2 p{
+    margin-bottom: 15px;
+}
+
+.btn1{
+    position: relative;
+    top: -320px;
+    left: 0px;
+    text-decoration: none;
+    width: 150px;
+    display: inline-block;
+}
+
+#header3{
+    background: url(./assets/component311.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+    position: relative;
+}
+
+#header3 .bg3{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.img5{
+    position: absolute;
+    padding: 70px;
+    background-color: #fff;
+    top: 0px;
+    margin: 40px calc(50vw - 190px);
+    border: 3px solid #CCC;
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+.img6{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.q1{
+    list-style: disc;
+}
+.q1 li{
+    display: inline-block;
+    top: 250px;
+    position: relative;
+    left: calc(50vw - 140px);
+}
+.a1{
+    position: relative;
+    color: #CCC;
+    text-align: center;
+    top: 220px;
+}
+#header5{
+    position: relative;
+    top: 400px;
+}
+.card3{
+    display: inline-block;
+    text-align: center;
+    margin: -3px 0px;
+}
+.card3 img{
+    width: calc(1200px/5);
+}
+.card3 p{
+    position: absolute;
+    font-size: 2rem;
+    top: 70px;
+    left: 50px;
+
+
+}
+.card3 h6{
+    position: absolute;
+    font-style: italic;
+    top: 60px;
+    left: 80px;
+
+}
+.i1{
+    position: absolute;
+}
+#header4{
+color: black;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+#header6{
+    height: 100px;
+    color: black;
+    width: 100vw;
+    position: relative;
+    top: 400px;
+}
+#header6 .conteiner{
+    display: inline-block;
+}
+.card4{
+    
+    display: inline-block;
+    margin: 0 25px;
+    width: calc(100% / 5 - 55px);
+    text-align: center;
+    margin-top: 55px;
+}
+.card4 p{
+    font-size: 0.8rem;
+    margin-bottom: 35px;
+}
+
+#header7{
+    
+    background: url(./assets/bgcopy.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    height: 60px;
+    margin-top: 30px;
+    width: 100vw;
+    position: relative;
+    font-size: 0.8rem;
+    top: 400px;
+    }
