@@ -1,0 +1,351 @@
+html,
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  #header {
+    background: url(./img/00-The-Endangered_Hero.png) no-repeat,
+    linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%);
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 20px 0;
+    min-height: 50vh;
+  }
+  @media screen and (max-width: 960px) {
+    #header {  
+    background-size: auto 100%;
+    }
+
+    #sub-header .cart .img2{
+        margin-top: 5px;
+        width: 43px;
+    }
+    
+    #sub-header .cart .cart-m h1{
+        margin-right: 15px;
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    #sub-header .cart .cart-m h3{
+        margin-right: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    
+    #sub-header .cart .cart-m p{
+        margin-right: 15px;
+        margin-top: 5px;
+    
+    }
+    
+    #sub-header .cart .cart-m button{
+        margin-right: 15px;
+        margin-top: 5px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+    }
+  }
+  
+  #header .flex-r {
+    
+    display: flex;
+    align-items: center;
+  }
+
+  #header .title {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 45px;
+  }
+
+  #header .nav {
+    display: flex;
+    text-transform: uppercase;
+    margin-left: auto;
+  }
+
+  #header .nav li {
+    margin-right: 70px;
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+#header .cart{
+      display: flex;
+      margin-right: 45px;
+      margin-left: auto;
+      
+}
+
+#header .cart img {
+    margin: 0 20px;
+    width: 15px;
+
+}
+
+  #header .cart .dot {
+    display: none;
+    width: 20px;
+    height: 10px;
+    margin: auto 0;
+    margin-left: 10px;
+    margin-right: 0px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+.flex-q{
+    display: flex;
+    flex-direction: column;
+}
+
+#header .zag{
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.zag h1{
+    font-size: 150px;
+    font-weight: 500;
+}
+
+.zag h3{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#header .t4k{
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 53vh;
+    left: 45vw;
+  }
+
+.t4k img{
+    margin-left: 30px;
+  }
+
+  #sub-header .flex-r {
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+#sub-header .cart{    
+    width: calc(100% /3 - 5px);
+    margin: 20px 0px;
+}
+
+#sub-header .cart img{
+    width: 97%;
+}
+
+#sub-header .sub-cart{
+    margin-top: -50px;
+    display: flex;
+    max-height: calc(100vw /3 - 19px);
+    background-color: #FBDB92C9;
+    width: calc(100% *2/3 - 20px);
+    margin-right: 10px;
+    overflow-y: hidden;
+}
+
+#sub-header .sub-cart .cart{
+    margin-left: 10px;
+    width: calc(100% /2 - 5px);
+    text-align: center;
+}
+
+#sub-header .sub-cart .cart .img{
+    width: 92%;
+    margin-left: 30px;
+}
+
+#sub-header .cart .img2{
+    margin-top: 10px;
+    width: 53px;
+}
+
+#sub-header .cart h1{
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#sub-header .cart h3{
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#sub-header .cart p{
+    margin-right: 15px;
+    margin-top: 10px;
+
+}
+
+#sub-header .cart button{
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+.text{
+    margin: 40px 40px 0px 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.or{
+    border-bottom: 2px solid #F7D895;
+    height: 20px;
+    margin-bottom: -10px;
+}
+
+.rel{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    bottom: 10px;
+    right: 15px;
+}
+
+.cart-buttom{
+    display: flex;
+}
+.ludi div{
+    height: 40px;
+    width: 40px;
+    margin-left: -15px;
+}
+.ludi{
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.l12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.Skull{
+    margin: -7px 0;
+    color: #968c8c;
+}
+
+.mhir{
+    font-weight: bold;
+}
+
+#futer .flex-r {
+    
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    margin: 20px auto;
+  }
+
+  .Adobe{
+      width: calc(100% *2/3 - 30px);
+      margin-right: auto;
+  }
+
+  .Website{
+      width: calc(100% /3 - 30px);
+  }
+
+  @media screen and (max-width: 768px) {
+    #header { 
+        background: url(./img/00-The-Endangered_Hero2.png) no-repeat,
+    linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%);
+        background-size: 100% 100%;
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 700px;
+      }
+
+      #header .title{
+        margin-left: 0px;
+      }
+
+      #header .nav{
+        display: none;
+      }
+
+      #header .cart .dot{
+        display: flex;
+      }
+
+      #header .cart{
+        margin-right: 0px;
+      }
+
+      #header .t4k{
+        top: 92vh;
+      }
+
+      #header .zag{
+        margin-top: 40vh;
+      }
+
+      .zag h1{
+        font-size: 130px;
+        font-weight: 500;
+    }
+
+      .zag h3{
+        color: #fff;
+        font-weight: 500;
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    #sub-header .sub-cart{
+        display: none;
+    }
+
+    #sub-header .cart{
+        width: calc(100% /2 - 5px);
+        margin: 20px 0px; 
+    }
+  }

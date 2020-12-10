@@ -1,0 +1,95 @@
+.nav li{
+background-color: #ccc;
+width: 130px;
+height: 30px;
+list-style-type: none;
+border: 1px solid white;
+transition-property: background-color;
+transition-duration: 0.5s;
+text-align: center;
+padding-top: 15px;
+cursor: pointer;
+position: relative;
+color: black;
+}
+
+.nav ul a{
+    text-decoration: none;
+}
+
+.nav li:hover{
+background-color: rgb(138, 133, 133);
+
+}
+
+.nav li ul{
+    position: absolute;
+    top: -1px;
+}
+
+.nav li ul{
+    display: none;
+}
+
+.nav li:hover ul{
+    position: absolute;
+    width: 130px;
+    left: 90px;
+    top: -1px;
+    animation: bounceInLeft;
+    animation-duration: 0.5s;
+
+   
+
+    display: flex;
+    flex-direction: column;
+}
+
+.nav ul li:hover .itm2 li{
+    animation-name: myanim;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.nav li:hover ul li{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@keyframes myanim{
+    from{
+        width: 130px;
+    }
+    70%{
+        width: 150px;
+    }
+    to{
+        width: 130px;
+    }
+
+}
+
+@-webkit-keyframes bounceInLeft {
+    from{
+        left: -41px;
+    }
+    60%,
+    75%,
+    90%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0px, 0, 0);
+      transform: translate3d(0px, 0, 0);
+    }  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }

@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: "Lato", sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  #header {
+    color: #fff;
+    height: 100vh;
+    min-height: 500px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.69) 100%),    
+      url("./img/hero-background.png") no-repeat;
+    background-size: cover, cover;
+    text-align: center;
+  }
+  .nav{
+    display: flex;
+    height: 110px;
+    background-color: #00000050;
+  }
+
+  .nav .n1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .n1{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center; 
+  }
+  .n2{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center; 
+  }
+
+  .n2-1{
+    margin-right: -40%;
+  }
+
+  .n2-1 input{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+  }
+
+  .t{
+    border: 1px solid #FF75C9;
+    padding: 5px;
+    background-color: #FF75C9;
+    height: 11px;
+    width: 11px;
+    border-radius: 5.5px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -2px;
+  }
+  
+  .h1{
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .h1 p{
+    width: 50vw;
+    margin-top: 10px;
+  }
+
+  .btn{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  #s2{
+    width: 100vw;
+    display: flex;  
+  }
+  
+  .s2-1{
+    color: white;
+    height: 387px;
+    width: 50%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.69) 100%),
+    url("./img/girl-1828536_1920.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end; 
+  }
+
+  .s2-2{
+    color: white;
+    height: 387px;
+    width: 50%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.69) 0%, rgba(0,0,0,0.69) 100%),
+     url("./img/OCRUY90.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end; 
+  }
+  .s2-2 div{
+    background-color: #00000050;
+  }
+  
+  .s2-3 .btn{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .s2-3{
+    margin-left: 40px; 
+  }
+
+  #s3{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #95989A;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+.wrap{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.btn1{
+  border: 1px solid #95989A;
+  color: #95989A;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.card p{
+  margin-top: 15px;
+}
+
+.card h3{
+  margin-top: 15px;
+}
+
+#s4{
+  background-color: #434343;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s4-1{
+  margin-top: 10vh;
+  display: flex;
+  align-items: center; 
+}
+
+.s4-1 h2{
+  color: #95989A;
+}
+
+.card1{ 
+  display: flex;
+  flex-direction: row;
+  height: 66px;
+  width: 66px;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  color: #95989A;
+}
+
+.s4-2{
+  width: 25%;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.s4-2 .card1{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.s4-2 p{
+  position: absolute;
+  margin-top: 45px;
+  font-size: 0.8rem;
+}
+
+.s4-3{
+  margin-top: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.s4-3 .card{
+  background-color: #fff;
+}
+
+.card s{
+  color: red;
+}
+
+#s5{
+  color: #fff;
+  background-color: #121212;
+  display: flex;
+}
+
+.card3{
+  margin: auto 15px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.s5-1{
+  display: flex;
+  flex-direction: column;
+}
+
+.s5-1 p{
+  margin-top: 50px;
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.s5-2{
+  display: flex;
+  flex-direction: column;
+}
+
+.card5{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.s5-3{
+  display: flex;
+  flex-direction: column;
+}
+
+.s5-3 p{
+margin-bottom: 5px;
+}
+
+.s5-4 p{
+  margin-bottom: 5px;
+  }
+
+.s5-4{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
