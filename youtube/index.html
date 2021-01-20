@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <script>
+        function convertToEmbededLink(link) {
+            if(link.indexOf('tu.be/') > -1) {
+                return 'https://www.youtube.com/embed/' + link.substr(link.indexOf('tu.be/')+6);
+            } else if(link.indexOf('?v=') > -1) {
+                return 'https://www.youtube.com/embed/' + link.substr(link.indexOf('?v=')+3, 11);
+            }
+            return null;
+        }
+
+        function embedVideo() {
+            let link = document.getElementById('linkInput').value;
+            link = convertToEmbededLink(link);
+            if(link != null) {
+                document.getElementById('embededVideo').src = link;
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="linkInput" type="text" value=""/><button onclick="embedVideo()">Start</button><br/>
+    <iframe id="embededVideo" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
